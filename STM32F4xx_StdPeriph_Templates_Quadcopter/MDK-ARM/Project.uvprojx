@@ -1272,19 +1272,89 @@
           <GroupName>src</GroupName>
           <Files>
             <File>
+              <FileName>accelerometer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\accelerometer.c</FilePath>
+            </File>
+            <File>
+              <FileName>analytics.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\analytics.c</FilePath>
+            </File>
+            <File>
+              <FileName>angular_position.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\angular_position.c</FilePath>
+            </File>
+            <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\delay.c</FilePath>
             </File>
             <File>
-              <FileName>Initialize.c</FileName>
+              <FileName>gyroscope.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\Initialize.c</FilePath>
+              <FilePath>..\src\gyroscope.c</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>magnetometer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\magnetometer.c</FilePath>
             </File>
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>on_board_leds.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\on_board_leds.c</FilePath>
+            </File>
+            <File>
+              <FileName>panic.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\panic.c</FilePath>
+            </File>
+            <File>
+              <FileName>pid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pid.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pwm.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm_input.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pwm_input.c</FilePath>
+            </File>
+            <File>
+              <FileName>remote_controls.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\remote_controls.c</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\ring_buffer.c</FilePath>
+            </File>
+            <File>
+              <FileName>serial_output.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\serial_output.c</FilePath>
+            </File>
+            <File>
+              <FileName>systick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\systick.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1292,14 +1362,44 @@
           <GroupName>inc</GroupName>
           <Files>
             <File>
+              <FileName>accelerometer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\accelerometer.h</FilePath>
+            </File>
+            <File>
+              <FileName>analytics.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\analytics.h</FilePath>
+            </File>
+            <File>
+              <FileName>angular_position.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\angular_position.h</FilePath>
+            </File>
+            <File>
+              <FileName>configuration.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\configuration.h</FilePath>
+            </File>
+            <File>
               <FileName>delay.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\inc\delay.h</FilePath>
             </File>
             <File>
-              <FileName>Initialize.h</FileName>
+              <FileName>gyroscope.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\inc\Initialize.h</FilePath>
+              <FilePath>..\inc\gyroscope.h</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>magnetometer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\magnetometer.h</FilePath>
             </File>
             <File>
               <FileName>main.h</FileName>
@@ -1307,9 +1407,49 @@
               <FilePath>..\inc\main.h</FilePath>
             </File>
             <File>
-              <FileName>variable.h</FileName>
+              <FileName>on_board_leds.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\inc\variable.h</FilePath>
+              <FilePath>..\inc\on_board_leds.h</FilePath>
+            </File>
+            <File>
+              <FileName>panic.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\panic.h</FilePath>
+            </File>
+            <File>
+              <FileName>pid.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pid.h</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pwm.h</FilePath>
+            </File>
+            <File>
+              <FileName>pwm_input.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pwm_input.h</FilePath>
+            </File>
+            <File>
+              <FileName>remote_controls.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\remote_controls.h</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\ring_buffer.h</FilePath>
+            </File>
+            <File>
+              <FileName>serial_output.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\serial_output.h</FilePath>
+            </File>
+            <File>
+              <FileName>systick.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\systick.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -2587,19 +2727,89 @@
           <GroupName>src</GroupName>
           <Files>
             <File>
+              <FileName>accelerometer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\accelerometer.c</FilePath>
+            </File>
+            <File>
+              <FileName>analytics.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\analytics.c</FilePath>
+            </File>
+            <File>
+              <FileName>angular_position.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\angular_position.c</FilePath>
+            </File>
+            <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\delay.c</FilePath>
             </File>
             <File>
-              <FileName>Initialize.c</FileName>
+              <FileName>gyroscope.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\Initialize.c</FilePath>
+              <FilePath>..\src\gyroscope.c</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>magnetometer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\magnetometer.c</FilePath>
             </File>
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>on_board_leds.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\on_board_leds.c</FilePath>
+            </File>
+            <File>
+              <FileName>panic.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\panic.c</FilePath>
+            </File>
+            <File>
+              <FileName>pid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pid.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pwm.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm_input.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pwm_input.c</FilePath>
+            </File>
+            <File>
+              <FileName>remote_controls.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\remote_controls.c</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\ring_buffer.c</FilePath>
+            </File>
+            <File>
+              <FileName>serial_output.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\serial_output.c</FilePath>
+            </File>
+            <File>
+              <FileName>systick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\systick.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -2607,14 +2817,44 @@
           <GroupName>inc</GroupName>
           <Files>
             <File>
+              <FileName>accelerometer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\accelerometer.h</FilePath>
+            </File>
+            <File>
+              <FileName>analytics.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\analytics.h</FilePath>
+            </File>
+            <File>
+              <FileName>angular_position.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\angular_position.h</FilePath>
+            </File>
+            <File>
+              <FileName>configuration.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\configuration.h</FilePath>
+            </File>
+            <File>
               <FileName>delay.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\inc\delay.h</FilePath>
             </File>
             <File>
-              <FileName>Initialize.h</FileName>
+              <FileName>gyroscope.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\inc\Initialize.h</FilePath>
+              <FilePath>..\inc\gyroscope.h</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>magnetometer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\magnetometer.h</FilePath>
             </File>
             <File>
               <FileName>main.h</FileName>
@@ -2622,9 +2862,49 @@
               <FilePath>..\inc\main.h</FilePath>
             </File>
             <File>
-              <FileName>variable.h</FileName>
+              <FileName>on_board_leds.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\inc\variable.h</FilePath>
+              <FilePath>..\inc\on_board_leds.h</FilePath>
+            </File>
+            <File>
+              <FileName>panic.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\panic.h</FilePath>
+            </File>
+            <File>
+              <FileName>pid.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pid.h</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pwm.h</FilePath>
+            </File>
+            <File>
+              <FileName>pwm_input.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pwm_input.h</FilePath>
+            </File>
+            <File>
+              <FileName>remote_controls.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\remote_controls.h</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\ring_buffer.h</FilePath>
+            </File>
+            <File>
+              <FileName>serial_output.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\serial_output.h</FilePath>
+            </File>
+            <File>
+              <FileName>systick.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\systick.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -3902,19 +4182,89 @@
           <GroupName>src</GroupName>
           <Files>
             <File>
+              <FileName>accelerometer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\accelerometer.c</FilePath>
+            </File>
+            <File>
+              <FileName>analytics.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\analytics.c</FilePath>
+            </File>
+            <File>
+              <FileName>angular_position.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\angular_position.c</FilePath>
+            </File>
+            <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\delay.c</FilePath>
             </File>
             <File>
-              <FileName>Initialize.c</FileName>
+              <FileName>gyroscope.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\Initialize.c</FilePath>
+              <FilePath>..\src\gyroscope.c</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>magnetometer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\magnetometer.c</FilePath>
             </File>
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>on_board_leds.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\on_board_leds.c</FilePath>
+            </File>
+            <File>
+              <FileName>panic.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\panic.c</FilePath>
+            </File>
+            <File>
+              <FileName>pid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pid.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pwm.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm_input.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pwm_input.c</FilePath>
+            </File>
+            <File>
+              <FileName>remote_controls.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\remote_controls.c</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\ring_buffer.c</FilePath>
+            </File>
+            <File>
+              <FileName>serial_output.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\serial_output.c</FilePath>
+            </File>
+            <File>
+              <FileName>systick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\systick.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -3922,14 +4272,44 @@
           <GroupName>inc</GroupName>
           <Files>
             <File>
+              <FileName>accelerometer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\accelerometer.h</FilePath>
+            </File>
+            <File>
+              <FileName>analytics.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\analytics.h</FilePath>
+            </File>
+            <File>
+              <FileName>angular_position.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\angular_position.h</FilePath>
+            </File>
+            <File>
+              <FileName>configuration.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\configuration.h</FilePath>
+            </File>
+            <File>
               <FileName>delay.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\inc\delay.h</FilePath>
             </File>
             <File>
-              <FileName>Initialize.h</FileName>
+              <FileName>gyroscope.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\inc\Initialize.h</FilePath>
+              <FilePath>..\inc\gyroscope.h</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>magnetometer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\magnetometer.h</FilePath>
             </File>
             <File>
               <FileName>main.h</FileName>
@@ -3937,9 +4317,49 @@
               <FilePath>..\inc\main.h</FilePath>
             </File>
             <File>
-              <FileName>variable.h</FileName>
+              <FileName>on_board_leds.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\inc\variable.h</FilePath>
+              <FilePath>..\inc\on_board_leds.h</FilePath>
+            </File>
+            <File>
+              <FileName>panic.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\panic.h</FilePath>
+            </File>
+            <File>
+              <FileName>pid.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pid.h</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pwm.h</FilePath>
+            </File>
+            <File>
+              <FileName>pwm_input.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pwm_input.h</FilePath>
+            </File>
+            <File>
+              <FileName>remote_controls.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\remote_controls.h</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\ring_buffer.h</FilePath>
+            </File>
+            <File>
+              <FileName>serial_output.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\serial_output.h</FilePath>
+            </File>
+            <File>
+              <FileName>systick.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\systick.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -5265,19 +5685,89 @@
           <GroupName>src</GroupName>
           <Files>
             <File>
+              <FileName>accelerometer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\accelerometer.c</FilePath>
+            </File>
+            <File>
+              <FileName>analytics.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\analytics.c</FilePath>
+            </File>
+            <File>
+              <FileName>angular_position.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\angular_position.c</FilePath>
+            </File>
+            <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\delay.c</FilePath>
             </File>
             <File>
-              <FileName>Initialize.c</FileName>
+              <FileName>gyroscope.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\Initialize.c</FilePath>
+              <FilePath>..\src\gyroscope.c</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>magnetometer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\magnetometer.c</FilePath>
             </File>
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>on_board_leds.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\on_board_leds.c</FilePath>
+            </File>
+            <File>
+              <FileName>panic.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\panic.c</FilePath>
+            </File>
+            <File>
+              <FileName>pid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pid.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pwm.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm_input.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pwm_input.c</FilePath>
+            </File>
+            <File>
+              <FileName>remote_controls.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\remote_controls.c</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\ring_buffer.c</FilePath>
+            </File>
+            <File>
+              <FileName>serial_output.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\serial_output.c</FilePath>
+            </File>
+            <File>
+              <FileName>systick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\systick.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -5285,14 +5775,44 @@
           <GroupName>inc</GroupName>
           <Files>
             <File>
+              <FileName>accelerometer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\accelerometer.h</FilePath>
+            </File>
+            <File>
+              <FileName>analytics.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\analytics.h</FilePath>
+            </File>
+            <File>
+              <FileName>angular_position.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\angular_position.h</FilePath>
+            </File>
+            <File>
+              <FileName>configuration.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\configuration.h</FilePath>
+            </File>
+            <File>
               <FileName>delay.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\inc\delay.h</FilePath>
             </File>
             <File>
-              <FileName>Initialize.h</FileName>
+              <FileName>gyroscope.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\inc\Initialize.h</FilePath>
+              <FilePath>..\inc\gyroscope.h</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>magnetometer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\magnetometer.h</FilePath>
             </File>
             <File>
               <FileName>main.h</FileName>
@@ -5300,9 +5820,49 @@
               <FilePath>..\inc\main.h</FilePath>
             </File>
             <File>
-              <FileName>variable.h</FileName>
+              <FileName>on_board_leds.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\inc\variable.h</FilePath>
+              <FilePath>..\inc\on_board_leds.h</FilePath>
+            </File>
+            <File>
+              <FileName>panic.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\panic.h</FilePath>
+            </File>
+            <File>
+              <FileName>pid.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pid.h</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pwm.h</FilePath>
+            </File>
+            <File>
+              <FileName>pwm_input.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pwm_input.h</FilePath>
+            </File>
+            <File>
+              <FileName>remote_controls.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\remote_controls.h</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\ring_buffer.h</FilePath>
+            </File>
+            <File>
+              <FileName>serial_output.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\serial_output.h</FilePath>
+            </File>
+            <File>
+              <FileName>systick.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\systick.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -6577,19 +7137,89 @@
           <GroupName>src</GroupName>
           <Files>
             <File>
+              <FileName>accelerometer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\accelerometer.c</FilePath>
+            </File>
+            <File>
+              <FileName>analytics.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\analytics.c</FilePath>
+            </File>
+            <File>
+              <FileName>angular_position.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\angular_position.c</FilePath>
+            </File>
+            <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\delay.c</FilePath>
             </File>
             <File>
-              <FileName>Initialize.c</FileName>
+              <FileName>gyroscope.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\Initialize.c</FilePath>
+              <FilePath>..\src\gyroscope.c</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>magnetometer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\magnetometer.c</FilePath>
             </File>
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>on_board_leds.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\on_board_leds.c</FilePath>
+            </File>
+            <File>
+              <FileName>panic.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\panic.c</FilePath>
+            </File>
+            <File>
+              <FileName>pid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pid.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pwm.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm_input.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pwm_input.c</FilePath>
+            </File>
+            <File>
+              <FileName>remote_controls.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\remote_controls.c</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\ring_buffer.c</FilePath>
+            </File>
+            <File>
+              <FileName>serial_output.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\serial_output.c</FilePath>
+            </File>
+            <File>
+              <FileName>systick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\systick.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -6597,14 +7227,44 @@
           <GroupName>inc</GroupName>
           <Files>
             <File>
+              <FileName>accelerometer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\accelerometer.h</FilePath>
+            </File>
+            <File>
+              <FileName>analytics.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\analytics.h</FilePath>
+            </File>
+            <File>
+              <FileName>angular_position.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\angular_position.h</FilePath>
+            </File>
+            <File>
+              <FileName>configuration.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\configuration.h</FilePath>
+            </File>
+            <File>
               <FileName>delay.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\inc\delay.h</FilePath>
             </File>
             <File>
-              <FileName>Initialize.h</FileName>
+              <FileName>gyroscope.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\inc\Initialize.h</FilePath>
+              <FilePath>..\inc\gyroscope.h</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>magnetometer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\magnetometer.h</FilePath>
             </File>
             <File>
               <FileName>main.h</FileName>
@@ -6612,9 +7272,49 @@
               <FilePath>..\inc\main.h</FilePath>
             </File>
             <File>
-              <FileName>variable.h</FileName>
+              <FileName>on_board_leds.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\inc\variable.h</FilePath>
+              <FilePath>..\inc\on_board_leds.h</FilePath>
+            </File>
+            <File>
+              <FileName>panic.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\panic.h</FilePath>
+            </File>
+            <File>
+              <FileName>pid.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pid.h</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pwm.h</FilePath>
+            </File>
+            <File>
+              <FileName>pwm_input.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pwm_input.h</FilePath>
+            </File>
+            <File>
+              <FileName>remote_controls.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\remote_controls.h</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\ring_buffer.h</FilePath>
+            </File>
+            <File>
+              <FileName>serial_output.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\serial_output.h</FilePath>
+            </File>
+            <File>
+              <FileName>systick.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\systick.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -7787,19 +8487,89 @@
           <GroupName>src</GroupName>
           <Files>
             <File>
+              <FileName>accelerometer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\accelerometer.c</FilePath>
+            </File>
+            <File>
+              <FileName>analytics.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\analytics.c</FilePath>
+            </File>
+            <File>
+              <FileName>angular_position.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\angular_position.c</FilePath>
+            </File>
+            <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\delay.c</FilePath>
             </File>
             <File>
-              <FileName>Initialize.c</FileName>
+              <FileName>gyroscope.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\Initialize.c</FilePath>
+              <FilePath>..\src\gyroscope.c</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>magnetometer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\magnetometer.c</FilePath>
             </File>
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>on_board_leds.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\on_board_leds.c</FilePath>
+            </File>
+            <File>
+              <FileName>panic.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\panic.c</FilePath>
+            </File>
+            <File>
+              <FileName>pid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pid.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pwm.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm_input.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pwm_input.c</FilePath>
+            </File>
+            <File>
+              <FileName>remote_controls.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\remote_controls.c</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\ring_buffer.c</FilePath>
+            </File>
+            <File>
+              <FileName>serial_output.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\serial_output.c</FilePath>
+            </File>
+            <File>
+              <FileName>systick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\systick.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -7807,14 +8577,44 @@
           <GroupName>inc</GroupName>
           <Files>
             <File>
+              <FileName>accelerometer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\accelerometer.h</FilePath>
+            </File>
+            <File>
+              <FileName>analytics.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\analytics.h</FilePath>
+            </File>
+            <File>
+              <FileName>angular_position.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\angular_position.h</FilePath>
+            </File>
+            <File>
+              <FileName>configuration.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\configuration.h</FilePath>
+            </File>
+            <File>
               <FileName>delay.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\inc\delay.h</FilePath>
             </File>
             <File>
-              <FileName>Initialize.h</FileName>
+              <FileName>gyroscope.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\inc\Initialize.h</FilePath>
+              <FilePath>..\inc\gyroscope.h</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>magnetometer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\magnetometer.h</FilePath>
             </File>
             <File>
               <FileName>main.h</FileName>
@@ -7822,9 +8622,49 @@
               <FilePath>..\inc\main.h</FilePath>
             </File>
             <File>
-              <FileName>variable.h</FileName>
+              <FileName>on_board_leds.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\inc\variable.h</FilePath>
+              <FilePath>..\inc\on_board_leds.h</FilePath>
+            </File>
+            <File>
+              <FileName>panic.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\panic.h</FilePath>
+            </File>
+            <File>
+              <FileName>pid.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pid.h</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pwm.h</FilePath>
+            </File>
+            <File>
+              <FileName>pwm_input.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pwm_input.h</FilePath>
+            </File>
+            <File>
+              <FileName>remote_controls.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\remote_controls.h</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\ring_buffer.h</FilePath>
+            </File>
+            <File>
+              <FileName>serial_output.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\serial_output.h</FilePath>
+            </File>
+            <File>
+              <FileName>systick.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\systick.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -8999,19 +9839,89 @@
           <GroupName>src</GroupName>
           <Files>
             <File>
+              <FileName>accelerometer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\accelerometer.c</FilePath>
+            </File>
+            <File>
+              <FileName>analytics.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\analytics.c</FilePath>
+            </File>
+            <File>
+              <FileName>angular_position.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\angular_position.c</FilePath>
+            </File>
+            <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\delay.c</FilePath>
             </File>
             <File>
-              <FileName>Initialize.c</FileName>
+              <FileName>gyroscope.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\Initialize.c</FilePath>
+              <FilePath>..\src\gyroscope.c</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>magnetometer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\magnetometer.c</FilePath>
             </File>
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>on_board_leds.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\on_board_leds.c</FilePath>
+            </File>
+            <File>
+              <FileName>panic.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\panic.c</FilePath>
+            </File>
+            <File>
+              <FileName>pid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pid.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pwm.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm_input.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pwm_input.c</FilePath>
+            </File>
+            <File>
+              <FileName>remote_controls.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\remote_controls.c</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\ring_buffer.c</FilePath>
+            </File>
+            <File>
+              <FileName>serial_output.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\serial_output.c</FilePath>
+            </File>
+            <File>
+              <FileName>systick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\systick.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -9019,14 +9929,44 @@
           <GroupName>inc</GroupName>
           <Files>
             <File>
+              <FileName>accelerometer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\accelerometer.h</FilePath>
+            </File>
+            <File>
+              <FileName>analytics.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\analytics.h</FilePath>
+            </File>
+            <File>
+              <FileName>angular_position.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\angular_position.h</FilePath>
+            </File>
+            <File>
+              <FileName>configuration.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\configuration.h</FilePath>
+            </File>
+            <File>
               <FileName>delay.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\inc\delay.h</FilePath>
             </File>
             <File>
-              <FileName>Initialize.h</FileName>
+              <FileName>gyroscope.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\inc\Initialize.h</FilePath>
+              <FilePath>..\inc\gyroscope.h</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>magnetometer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\magnetometer.h</FilePath>
             </File>
             <File>
               <FileName>main.h</FileName>
@@ -9034,9 +9974,49 @@
               <FilePath>..\inc\main.h</FilePath>
             </File>
             <File>
-              <FileName>variable.h</FileName>
+              <FileName>on_board_leds.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\inc\variable.h</FilePath>
+              <FilePath>..\inc\on_board_leds.h</FilePath>
+            </File>
+            <File>
+              <FileName>panic.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\panic.h</FilePath>
+            </File>
+            <File>
+              <FileName>pid.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pid.h</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pwm.h</FilePath>
+            </File>
+            <File>
+              <FileName>pwm_input.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pwm_input.h</FilePath>
+            </File>
+            <File>
+              <FileName>remote_controls.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\remote_controls.h</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\ring_buffer.h</FilePath>
+            </File>
+            <File>
+              <FileName>serial_output.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\serial_output.h</FilePath>
+            </File>
+            <File>
+              <FileName>systick.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\systick.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -10158,19 +11138,89 @@
           <GroupName>src</GroupName>
           <Files>
             <File>
+              <FileName>accelerometer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\accelerometer.c</FilePath>
+            </File>
+            <File>
+              <FileName>analytics.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\analytics.c</FilePath>
+            </File>
+            <File>
+              <FileName>angular_position.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\angular_position.c</FilePath>
+            </File>
+            <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\delay.c</FilePath>
             </File>
             <File>
-              <FileName>Initialize.c</FileName>
+              <FileName>gyroscope.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\Initialize.c</FilePath>
+              <FilePath>..\src\gyroscope.c</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>magnetometer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\magnetometer.c</FilePath>
             </File>
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>on_board_leds.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\on_board_leds.c</FilePath>
+            </File>
+            <File>
+              <FileName>panic.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\panic.c</FilePath>
+            </File>
+            <File>
+              <FileName>pid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pid.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pwm.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm_input.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pwm_input.c</FilePath>
+            </File>
+            <File>
+              <FileName>remote_controls.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\remote_controls.c</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\ring_buffer.c</FilePath>
+            </File>
+            <File>
+              <FileName>serial_output.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\serial_output.c</FilePath>
+            </File>
+            <File>
+              <FileName>systick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\systick.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -10178,14 +11228,44 @@
           <GroupName>inc</GroupName>
           <Files>
             <File>
+              <FileName>accelerometer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\accelerometer.h</FilePath>
+            </File>
+            <File>
+              <FileName>analytics.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\analytics.h</FilePath>
+            </File>
+            <File>
+              <FileName>angular_position.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\angular_position.h</FilePath>
+            </File>
+            <File>
+              <FileName>configuration.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\configuration.h</FilePath>
+            </File>
+            <File>
               <FileName>delay.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\inc\delay.h</FilePath>
             </File>
             <File>
-              <FileName>Initialize.h</FileName>
+              <FileName>gyroscope.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\inc\Initialize.h</FilePath>
+              <FilePath>..\inc\gyroscope.h</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>magnetometer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\magnetometer.h</FilePath>
             </File>
             <File>
               <FileName>main.h</FileName>
@@ -10193,9 +11273,49 @@
               <FilePath>..\inc\main.h</FilePath>
             </File>
             <File>
-              <FileName>variable.h</FileName>
+              <FileName>on_board_leds.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\inc\variable.h</FilePath>
+              <FilePath>..\inc\on_board_leds.h</FilePath>
+            </File>
+            <File>
+              <FileName>panic.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\panic.h</FilePath>
+            </File>
+            <File>
+              <FileName>pid.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pid.h</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pwm.h</FilePath>
+            </File>
+            <File>
+              <FileName>pwm_input.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pwm_input.h</FilePath>
+            </File>
+            <File>
+              <FileName>remote_controls.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\remote_controls.h</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\ring_buffer.h</FilePath>
+            </File>
+            <File>
+              <FileName>serial_output.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\serial_output.h</FilePath>
+            </File>
+            <File>
+              <FileName>systick.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\systick.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -11268,19 +12388,89 @@
           <GroupName>src</GroupName>
           <Files>
             <File>
+              <FileName>accelerometer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\accelerometer.c</FilePath>
+            </File>
+            <File>
+              <FileName>analytics.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\analytics.c</FilePath>
+            </File>
+            <File>
+              <FileName>angular_position.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\angular_position.c</FilePath>
+            </File>
+            <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\delay.c</FilePath>
             </File>
             <File>
-              <FileName>Initialize.c</FileName>
+              <FileName>gyroscope.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\Initialize.c</FilePath>
+              <FilePath>..\src\gyroscope.c</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>magnetometer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\magnetometer.c</FilePath>
             </File>
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>on_board_leds.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\on_board_leds.c</FilePath>
+            </File>
+            <File>
+              <FileName>panic.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\panic.c</FilePath>
+            </File>
+            <File>
+              <FileName>pid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pid.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pwm.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm_input.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pwm_input.c</FilePath>
+            </File>
+            <File>
+              <FileName>remote_controls.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\remote_controls.c</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\ring_buffer.c</FilePath>
+            </File>
+            <File>
+              <FileName>serial_output.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\serial_output.c</FilePath>
+            </File>
+            <File>
+              <FileName>systick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\systick.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -11288,14 +12478,44 @@
           <GroupName>inc</GroupName>
           <Files>
             <File>
+              <FileName>accelerometer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\accelerometer.h</FilePath>
+            </File>
+            <File>
+              <FileName>analytics.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\analytics.h</FilePath>
+            </File>
+            <File>
+              <FileName>angular_position.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\angular_position.h</FilePath>
+            </File>
+            <File>
+              <FileName>configuration.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\configuration.h</FilePath>
+            </File>
+            <File>
               <FileName>delay.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\inc\delay.h</FilePath>
             </File>
             <File>
-              <FileName>Initialize.h</FileName>
+              <FileName>gyroscope.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\inc\Initialize.h</FilePath>
+              <FilePath>..\inc\gyroscope.h</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>magnetometer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\magnetometer.h</FilePath>
             </File>
             <File>
               <FileName>main.h</FileName>
@@ -11303,9 +12523,49 @@
               <FilePath>..\inc\main.h</FilePath>
             </File>
             <File>
-              <FileName>variable.h</FileName>
+              <FileName>on_board_leds.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\inc\variable.h</FilePath>
+              <FilePath>..\inc\on_board_leds.h</FilePath>
+            </File>
+            <File>
+              <FileName>panic.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\panic.h</FilePath>
+            </File>
+            <File>
+              <FileName>pid.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pid.h</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pwm.h</FilePath>
+            </File>
+            <File>
+              <FileName>pwm_input.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pwm_input.h</FilePath>
+            </File>
+            <File>
+              <FileName>remote_controls.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\remote_controls.h</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\ring_buffer.h</FilePath>
+            </File>
+            <File>
+              <FileName>serial_output.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\serial_output.h</FilePath>
+            </File>
+            <File>
+              <FileName>systick.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\systick.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -12379,19 +13639,89 @@
           <GroupName>src</GroupName>
           <Files>
             <File>
+              <FileName>accelerometer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\accelerometer.c</FilePath>
+            </File>
+            <File>
+              <FileName>analytics.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\analytics.c</FilePath>
+            </File>
+            <File>
+              <FileName>angular_position.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\angular_position.c</FilePath>
+            </File>
+            <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\delay.c</FilePath>
             </File>
             <File>
-              <FileName>Initialize.c</FileName>
+              <FileName>gyroscope.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\Initialize.c</FilePath>
+              <FilePath>..\src\gyroscope.c</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>magnetometer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\magnetometer.c</FilePath>
             </File>
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>on_board_leds.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\on_board_leds.c</FilePath>
+            </File>
+            <File>
+              <FileName>panic.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\panic.c</FilePath>
+            </File>
+            <File>
+              <FileName>pid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pid.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pwm.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm_input.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pwm_input.c</FilePath>
+            </File>
+            <File>
+              <FileName>remote_controls.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\remote_controls.c</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\ring_buffer.c</FilePath>
+            </File>
+            <File>
+              <FileName>serial_output.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\serial_output.c</FilePath>
+            </File>
+            <File>
+              <FileName>systick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\systick.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -12399,14 +13729,44 @@
           <GroupName>inc</GroupName>
           <Files>
             <File>
+              <FileName>accelerometer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\accelerometer.h</FilePath>
+            </File>
+            <File>
+              <FileName>analytics.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\analytics.h</FilePath>
+            </File>
+            <File>
+              <FileName>angular_position.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\angular_position.h</FilePath>
+            </File>
+            <File>
+              <FileName>configuration.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\configuration.h</FilePath>
+            </File>
+            <File>
               <FileName>delay.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\inc\delay.h</FilePath>
             </File>
             <File>
-              <FileName>Initialize.h</FileName>
+              <FileName>gyroscope.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\inc\Initialize.h</FilePath>
+              <FilePath>..\inc\gyroscope.h</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>magnetometer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\magnetometer.h</FilePath>
             </File>
             <File>
               <FileName>main.h</FileName>
@@ -12414,9 +13774,49 @@
               <FilePath>..\inc\main.h</FilePath>
             </File>
             <File>
-              <FileName>variable.h</FileName>
+              <FileName>on_board_leds.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\inc\variable.h</FilePath>
+              <FilePath>..\inc\on_board_leds.h</FilePath>
+            </File>
+            <File>
+              <FileName>panic.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\panic.h</FilePath>
+            </File>
+            <File>
+              <FileName>pid.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pid.h</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pwm.h</FilePath>
+            </File>
+            <File>
+              <FileName>pwm_input.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pwm_input.h</FilePath>
+            </File>
+            <File>
+              <FileName>remote_controls.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\remote_controls.h</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\ring_buffer.h</FilePath>
+            </File>
+            <File>
+              <FileName>serial_output.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\serial_output.h</FilePath>
+            </File>
+            <File>
+              <FileName>systick.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\systick.h</FilePath>
             </File>
           </Files>
         </Group>

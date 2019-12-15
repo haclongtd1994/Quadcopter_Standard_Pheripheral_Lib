@@ -1,10 +1,13 @@
-#ifndef DELAY_H
-#define DELAY_H
 
-#include "variable.h"
+#ifndef __DELAY_H
+#define __DELAY_H
 
+#include "configuration.h"
 
-extern void delay_option(void);
-
+void EnableTiming(void);					// Function to enable delay timer
+void TimingDelay(unsigned int tick);	// Function delay with cycle of chip
+void WaitASecond(void);						// Function delay 1 second
+void WaitAMillisecond(void);				// Function delay 1 milisecond
+void WaitAFewMillis(int16_t millis);	// Function delay miliseconds
 
 #endif

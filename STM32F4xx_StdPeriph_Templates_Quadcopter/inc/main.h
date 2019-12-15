@@ -1,80 +1,70 @@
-/**
-  ******************************************************************************
-  * @file    GPIO/GPIO_IOToggle/main.h 
-  * @author  MCD Application Team
-  * @version V1.8.0
-  * @date    04-November-2016
-  * @brief   Header for main.c module
-  ******************************************************************************
-  * @attention
-  *
-  * <h2><center>&copy; COPYRIGHT 2016 STMicroelectronics</center></h2>
-  *
-  * Licensed under MCD-ST Liberty SW License Agreement V2, (the "License");
-  * You may not use this file except in compliance with the License.
-  * You may obtain a copy of the License at:
-  *
-  *        http://www.st.com/software_license_agreement_liberty_v2
-  *
-  * Unless required by applicable law or agreed to in writing, software 
-  * distributed under the License is distributed on an "AS IS" BASIS, 
-  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  * See the License for the specific language governing permissions and
-  * limitations under the License.
-  *
-  ******************************************************************************
-  */
-  
-/* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __MAIN_H
-#define __MAIN_H
+#ifndef MAIN_H
+#define MAIN_H
 
-/* Includes ------------------------------------------------------------------*/
-#include "stm32f4xx.h"
-#include "variable.h"
+/* Include Variable and configuration marco */
+#include "configuration.h"
+
+/* Delare variable to using as global variable */
+bool isReadingAccelerometer;
+struct AccelerometerReading accelerometerReading;
+RingBuffer metricsRingBuffer;
+bool sensorToggle;
+struct AngularPosition angularPosition;
+bool isReadingGyroscope;
+struct GyroscopeReading gyroscopeReading;
+bool i2cHasProblem;
+bool i2cInUse;
+bool i2cTransmitting;
+uint32_t i2cMisunderstoodEvents;
+
+/* the address to identify the peripheral we are communicating with */
+uint8_t peripheralAddress;
+
+/* the buffer for the characters to be sent */
+uint8_t outgoing[10];
+uint8_t expectedNumberOfOutgoing;
+uint8_t outgoingIndex;
+
+/* the buffer for the characters to be received */
+uint8_t incoming[10];
+uint8_t expectedNumberOfIncoming;
+uint8_t incomingIndex;
+
+struct MagnetometerReading magnetometerReading;
+uint32_t clearWarningsOnSecondsElapsed;
+float channel1Pulse;
+float channel2Pulse;
+float channel3Pulse;
+float channel4Pulse;
+struct PWMInput pwmInputTimer4;
+struct PWMInput pwmInputTimer5;
+struct PWMInput pwmInputTimer9;
+struct PWMInput pwmInputTimer12;
+// Store throttle
+struct PWMInput* throttle;
+
+struct PWMInput* remotePidProportional;
+
+struct PWMInput* remotePidIntegral;
+
+struct PWMInput* resetAngularPosition;
+uint32_t secondsElapsed;
+uint32_t intermediateMillis;
+
+/* Lib function to control and monitor quadcopter */
+#include "accelerometer.h"
+#include "analytics.h"
+#include "angular_position.h"
+#include "configuration.h"
 #include "delay.h"
-#include "Initialize.h"
+#include "gyroscope.h"
+#include "i2c.h"
+#include "on_board_leds.h"
+#include "panic.h"
+#include "pid.h"
+#include "pwm.h"
+#include "remote_controls.h"
+#include "stm32f4xx.h"
+#include "systick.h"
 
-bool Is_ON;
-uint32_t Status_Reg;
-
-#if defined (USE_STM324xG_EVAL)
-  #include "stm324xg_eval.h"
-
-#elif defined (USE_STM324x7I_EVAL) 
-  #include "stm324x7i_eval.h"
-
-#elif defined (USE_STM324x9I_EVAL) 
-  #include "stm324x9i_eval.h"
-
-#else
- #error "Please select first the Evaluation board used in your application (in Project Options)"
 #endif
-
-/* Exported define -----------------------------------------------------------*/
-#if defined (USE_STM324xG_EVAL)
-  #define LED1_PIN                         GPIO_Pin_6
-  #define LED2_PIN                         GPIO_Pin_8
-
-#endif /* USE_STM324xG_EVAL */
-
-#if defined (USE_STM324x7I_EVAL)    
-  #define LED1_PIN                         GPIO_Pin_6
-  #define LED2_PIN                         GPIO_Pin_8
-
-#endif /* USE_STM324x7I_EVAL */
-
-#if defined (USE_STM324x9I_EVAL)    
-  #define LED1_PIN                         GPIO_Pin_6
-  #define LED2_PIN                         GPIO_Pin_7
-
-#endif /* USE_STM324x9I_EVAL */
-
-/* Exported types ------------------------------------------------------------*/
-/* Exported constants --------------------------------------------------------*/
-/* Exported macro ------------------------------------------------------------*/
-/* Exported functions ------------------------------------------------------- */
-
-#endif /* __MAIN_H */
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

@@ -1,0 +1,229 @@
+PCAD Importer Log
+Project : STM32F4DISCOVERY.LibPkg
+
+Section : D:\Project_STM32\en.stm32f4_dsp_stdperiph_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.8.0\Project\Project_Sch_Pcb\STM32F4DISCOVERY\STM32F4DISCOVERY.lia
+    Section : PCB Library - STM32F4DISCOVERY.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token STM32F4DISCOVERY On Line 231
+            Warning - 1 : Skipping Token attachedSymbol On Line 1248
+            Warning - 1 : Skipping Token 28 On Line 1251
+            Warning - 1 : Skipping Token 29 On Line 1253
+            Warning - 1 : Skipping Token 22 On Line 1255
+            Warning - 1 : Skipping Token 23 On Line 1257
+            Warning - 1 : Skipping Token 20 On Line 1259
+            Warning - 1 : Skipping Token 21 On Line 1261
+            Warning - 1 : Skipping Token 26 On Line 1263
+            Warning - 1 : Skipping Token 27 On Line 1265
+            Warning - 1 : Skipping Token 24 On Line 1267
+            Warning - 1 : Skipping Token 25 On Line 1269
+            Warning - 1 : Skipping Token 3 On Line 1271
+            Warning - 1 : Skipping Token 2 On Line 1273
+            Warning - 1 : Skipping Token 1 On Line 1275
+            Warning - 1 : Skipping Token 7 On Line 1277
+            Warning - 1 : Skipping Token 6 On Line 1279
+            Warning - 1 : Skipping Token 5 On Line 1281
+            Warning - 1 : Skipping Token 4 On Line 1283
+            Warning - 1 : Skipping Token 9 On Line 1285
+            Warning - 1 : Skipping Token 8 On Line 1287
+            Warning - 1 : Skipping Token 50 On Line 1289
+            Warning - 1 : Skipping Token 16 On Line 1291
+            Warning - 1 : Skipping Token 17 On Line 1293
+            Warning - 1 : Skipping Token 14 On Line 1295
+            Warning - 1 : Skipping Token 15 On Line 1297
+            Warning - 1 : Skipping Token 12 On Line 1299
+            Warning - 1 : Skipping Token 13 On Line 1301
+            Warning - 1 : Skipping Token 10 On Line 1303
+            Warning - 1 : Skipping Token 11 On Line 1305
+            Warning - 1 : Skipping Token 18 On Line 1307
+            Warning - 1 : Skipping Token 19 On Line 1309
+            Warning - 1 : Skipping Token 48 On Line 1311
+            Warning - 1 : Skipping Token 49 On Line 1313
+            Warning - 1 : Skipping Token 44 On Line 1315
+            Warning - 1 : Skipping Token 45 On Line 1317
+            Warning - 1 : Skipping Token 46 On Line 1319
+            Warning - 1 : Skipping Token 47 On Line 1321
+            Warning - 1 : Skipping Token 40 On Line 1323
+            Warning - 1 : Skipping Token 41 On Line 1325
+            Warning - 1 : Skipping Token 42 On Line 1327
+            Warning - 1 : Skipping Token 43 On Line 1329
+            Warning - 1 : Skipping Token 45 On Line 1331
+            Warning - 1 : Skipping Token 44 On Line 1333
+            Warning - 1 : Skipping Token 47 On Line 1335
+            Warning - 1 : Skipping Token 46 On Line 1337
+            Warning - 1 : Skipping Token 41 On Line 1339
+            Warning - 1 : Skipping Token 40 On Line 1341
+            Warning - 1 : Skipping Token 43 On Line 1343
+            Warning - 1 : Skipping Token 42 On Line 1345
+            Warning - 1 : Skipping Token 49 On Line 1347
+            Warning - 1 : Skipping Token 50 On Line 1349
+            Warning - 1 : Skipping Token 13 On Line 1351
+            Warning - 1 : Skipping Token 12 On Line 1353
+            Warning - 1 : Skipping Token 11 On Line 1355
+            Warning - 1 : Skipping Token 10 On Line 1357
+            Warning - 1 : Skipping Token 17 On Line 1359
+            Warning - 1 : Skipping Token 16 On Line 1361
+            Warning - 1 : Skipping Token 15 On Line 1363
+            Warning - 1 : Skipping Token 14 On Line 1365
+            Warning - 1 : Skipping Token 19 On Line 1367
+            Warning - 1 : Skipping Token 18 On Line 1369
+            Warning - 1 : Skipping Token 4 On Line 1371
+            Warning - 1 : Skipping Token 5 On Line 1373
+            Warning - 1 : Skipping Token 6 On Line 1375
+            Warning - 1 : Skipping Token 7 On Line 1377
+            Warning - 1 : Skipping Token 1 On Line 1379
+            Warning - 1 : Skipping Token 2 On Line 1381
+            Warning - 1 : Skipping Token 3 On Line 1383
+            Warning - 1 : Skipping Token 8 On Line 1385
+            Warning - 1 : Skipping Token 9 On Line 1387
+            Warning - 1 : Skipping Token 29 On Line 1389
+            Warning - 1 : Skipping Token 28 On Line 1391
+            Warning - 1 : Skipping Token 27 On Line 1393
+            Warning - 1 : Skipping Token 26 On Line 1395
+            Warning - 1 : Skipping Token 25 On Line 1397
+            Warning - 1 : Skipping Token 24 On Line 1399
+            Warning - 1 : Skipping Token 23 On Line 1401
+            Warning - 1 : Skipping Token 22 On Line 1403
+            Warning - 1 : Skipping Token 21 On Line 1405
+            Warning - 1 : Skipping Token 20 On Line 1407
+            Warning - 1 : Skipping Token 38 On Line 1409
+            Warning - 1 : Skipping Token 39 On Line 1411
+            Warning - 1 : Skipping Token 34 On Line 1413
+            Warning - 1 : Skipping Token 35 On Line 1415
+            Warning - 1 : Skipping Token 36 On Line 1417
+            Warning - 1 : Skipping Token 37 On Line 1419
+            Warning - 1 : Skipping Token 30 On Line 1421
+            Warning - 1 : Skipping Token 31 On Line 1423
+            Warning - 1 : Skipping Token 32 On Line 1425
+            Warning - 1 : Skipping Token 33 On Line 1427
+            Warning - 1 : Skipping Token 35 On Line 1429
+            Warning - 1 : Skipping Token 34 On Line 1431
+            Warning - 1 : Skipping Token 37 On Line 1433
+            Warning - 1 : Skipping Token 36 On Line 1435
+            Warning - 1 : Skipping Token 31 On Line 1437
+            Warning - 1 : Skipping Token 30 On Line 1439
+            Warning - 1 : Skipping Token 33 On Line 1441
+            Warning - 1 : Skipping Token 32 On Line 1443
+            Warning - 1 : Skipping Token 39 On Line 1445
+            Warning - 1 : Skipping Token 38 On Line 1447
+        EndSection
+
+        Section : Import Messages
+            Warning - 0 : PCAD Pattern Graphics [*MODULE_STM32F4DISCOVERY][Primary] associated with PCAD Component [STM32F4DISCOVERY] has been renamed to PCB FootPrint [*MODULE_STM32F4DISCOVERY_STM32F4DISCOVERY(Primary)].
+        EndSection
+    EndSection
+
+    Section : SCH Library - STM32F4DISCOVERY.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 198
+            Warning - 1 : Skipping Token layerContents On Line 204
+            Warning - 1 : Skipping Token layerContents On Line 211
+            Warning - 1 : Skipping Token layerContents On Line 220
+            Warning - 1 : Skipping Token 28 On Line 1251
+            Warning - 1 : Skipping Token 29 On Line 1253
+            Warning - 1 : Skipping Token 22 On Line 1255
+            Warning - 1 : Skipping Token 23 On Line 1257
+            Warning - 1 : Skipping Token 20 On Line 1259
+            Warning - 1 : Skipping Token 21 On Line 1261
+            Warning - 1 : Skipping Token 26 On Line 1263
+            Warning - 1 : Skipping Token 27 On Line 1265
+            Warning - 1 : Skipping Token 24 On Line 1267
+            Warning - 1 : Skipping Token 25 On Line 1269
+            Warning - 1 : Skipping Token 3 On Line 1271
+            Warning - 1 : Skipping Token 2 On Line 1273
+            Warning - 1 : Skipping Token 1 On Line 1275
+            Warning - 1 : Skipping Token 7 On Line 1277
+            Warning - 1 : Skipping Token 6 On Line 1279
+            Warning - 1 : Skipping Token 5 On Line 1281
+            Warning - 1 : Skipping Token 4 On Line 1283
+            Warning - 1 : Skipping Token 9 On Line 1285
+            Warning - 1 : Skipping Token 8 On Line 1287
+            Warning - 1 : Skipping Token 50 On Line 1289
+            Warning - 1 : Skipping Token 16 On Line 1291
+            Warning - 1 : Skipping Token 17 On Line 1293
+            Warning - 1 : Skipping Token 14 On Line 1295
+            Warning - 1 : Skipping Token 15 On Line 1297
+            Warning - 1 : Skipping Token 12 On Line 1299
+            Warning - 1 : Skipping Token 13 On Line 1301
+            Warning - 1 : Skipping Token 10 On Line 1303
+            Warning - 1 : Skipping Token 11 On Line 1305
+            Warning - 1 : Skipping Token 18 On Line 1307
+            Warning - 1 : Skipping Token 19 On Line 1309
+            Warning - 1 : Skipping Token 48 On Line 1311
+            Warning - 1 : Skipping Token 49 On Line 1313
+            Warning - 1 : Skipping Token 44 On Line 1315
+            Warning - 1 : Skipping Token 45 On Line 1317
+            Warning - 1 : Skipping Token 46 On Line 1319
+            Warning - 1 : Skipping Token 47 On Line 1321
+            Warning - 1 : Skipping Token 40 On Line 1323
+            Warning - 1 : Skipping Token 41 On Line 1325
+            Warning - 1 : Skipping Token 42 On Line 1327
+            Warning - 1 : Skipping Token 43 On Line 1329
+            Warning - 1 : Skipping Token 45 On Line 1331
+            Warning - 1 : Skipping Token 44 On Line 1333
+            Warning - 1 : Skipping Token 47 On Line 1335
+            Warning - 1 : Skipping Token 46 On Line 1337
+            Warning - 1 : Skipping Token 41 On Line 1339
+            Warning - 1 : Skipping Token 40 On Line 1341
+            Warning - 1 : Skipping Token 43 On Line 1343
+            Warning - 1 : Skipping Token 42 On Line 1345
+            Warning - 1 : Skipping Token 49 On Line 1347
+            Warning - 1 : Skipping Token 50 On Line 1349
+            Warning - 1 : Skipping Token 13 On Line 1351
+            Warning - 1 : Skipping Token 12 On Line 1353
+            Warning - 1 : Skipping Token 11 On Line 1355
+            Warning - 1 : Skipping Token 10 On Line 1357
+            Warning - 1 : Skipping Token 17 On Line 1359
+            Warning - 1 : Skipping Token 16 On Line 1361
+            Warning - 1 : Skipping Token 15 On Line 1363
+            Warning - 1 : Skipping Token 14 On Line 1365
+            Warning - 1 : Skipping Token 19 On Line 1367
+            Warning - 1 : Skipping Token 18 On Line 1369
+            Warning - 1 : Skipping Token 4 On Line 1371
+            Warning - 1 : Skipping Token 5 On Line 1373
+            Warning - 1 : Skipping Token 6 On Line 1375
+            Warning - 1 : Skipping Token 7 On Line 1377
+            Warning - 1 : Skipping Token 1 On Line 1379
+            Warning - 1 : Skipping Token 2 On Line 1381
+            Warning - 1 : Skipping Token 3 On Line 1383
+            Warning - 1 : Skipping Token 8 On Line 1385
+            Warning - 1 : Skipping Token 9 On Line 1387
+            Warning - 1 : Skipping Token 29 On Line 1389
+            Warning - 1 : Skipping Token 28 On Line 1391
+            Warning - 1 : Skipping Token 27 On Line 1393
+            Warning - 1 : Skipping Token 26 On Line 1395
+            Warning - 1 : Skipping Token 25 On Line 1397
+            Warning - 1 : Skipping Token 24 On Line 1399
+            Warning - 1 : Skipping Token 23 On Line 1401
+            Warning - 1 : Skipping Token 22 On Line 1403
+            Warning - 1 : Skipping Token 21 On Line 1405
+            Warning - 1 : Skipping Token 20 On Line 1407
+            Warning - 1 : Skipping Token 38 On Line 1409
+            Warning - 1 : Skipping Token 39 On Line 1411
+            Warning - 1 : Skipping Token 34 On Line 1413
+            Warning - 1 : Skipping Token 35 On Line 1415
+            Warning - 1 : Skipping Token 36 On Line 1417
+            Warning - 1 : Skipping Token 37 On Line 1419
+            Warning - 1 : Skipping Token 30 On Line 1421
+            Warning - 1 : Skipping Token 31 On Line 1423
+            Warning - 1 : Skipping Token 32 On Line 1425
+            Warning - 1 : Skipping Token 33 On Line 1427
+            Warning - 1 : Skipping Token 35 On Line 1429
+            Warning - 1 : Skipping Token 34 On Line 1431
+            Warning - 1 : Skipping Token 37 On Line 1433
+            Warning - 1 : Skipping Token 36 On Line 1435
+            Warning - 1 : Skipping Token 31 On Line 1437
+            Warning - 1 : Skipping Token 30 On Line 1439
+            Warning - 1 : Skipping Token 33 On Line 1441
+            Warning - 1 : Skipping Token 32 On Line 1443
+            Warning - 1 : Skipping Token 39 On Line 1445
+            Warning - 1 : Skipping Token 38 On Line 1447
+        EndSection
+
+        Section : Generating SCH Library - STM32F4DISCOVERY.SchLib
+            Warning - 0 : PCAD Pattern Graphics [*MODULE_STM32F4DISCOVERY][Primary] associated with PCAD Component [STM32F4DISCOVERY] has been renamed to PCB FootPrint [*MODULE_STM32F4DISCOVERY_STM32F4DISCOVERY(Primary)].
+        EndSection
+    EndSection
+EndSection

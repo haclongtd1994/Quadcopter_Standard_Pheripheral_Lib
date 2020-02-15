@@ -38,6 +38,7 @@
 */
 
 int main(void) {
+	SystemInit();
 	EnableTiming();
 	InitialiseLeds();
 	InitialisePanicButton();
@@ -87,11 +88,12 @@ int main(void) {
 
 		if (secondsElapsed > armingSequenceTimeLastStepExecuted) {
 
-			if (armingSequenceStep == ARMING_SEQUENCE_LOW_THROTTLE_REQUIRED && thrust == 0.0) {
+			if ((armingSequenceStep == ARMING_SEQUENCE_LOW_THROTTLE_REQUIRED) && (thrust == 0.0)) {
 				armingSequenceStep = ARMING_SEQUENCE_HIGH_THROTTLE_REQUIRED;
 				armingSequenceTimeLastStepExecuted = secondsElapsed;
 
-			} else if (armingSequenceStep == ARMING_SEQUENCE_HIGH_THROTTLE_REQUIRED && thrust == 100.0) {
+			}
+			else if (armingSequenceStep == ARMING_SEQUENCE_HIGH_THROTTLE_REQUIRED && thrust == 100.0) {
 				armingSequenceStep = ARMING_SEQUENCE_LOW_THROTTLE_REQUIRED_AGAIN;
 				armingSequenceTimeLastStepExecuted = secondsElapsed;
 

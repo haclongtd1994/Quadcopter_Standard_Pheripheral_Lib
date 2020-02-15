@@ -113,11 +113,13 @@ void InitialiseI2C() {
 	 * See http://www.i2c-bus.org/how-i2c-hardware-works/.
 	 */
 	GPIO_InitTypeDef GPIO_InitStruct;
-	GPIO_InitStruct.GPIO_Pin = GPIO_Pin_8 | GPIO_Pin_9;
+	GPIO_InitStruct.GPIO_Pin = GPIO_Pin_8;
 	GPIO_InitStruct.GPIO_Mode = GPIO_Mode_AF;
 	GPIO_InitStruct.GPIO_Speed = GPIO_Speed_50MHz;
 	GPIO_InitStruct.GPIO_OType = GPIO_OType_OD;
 	GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_UP;
+	GPIO_Init(GPIOB, &GPIO_InitStruct);
+	GPIO_InitStruct.GPIO_Pin = GPIO_Pin_9;
 	GPIO_Init(GPIOB, &GPIO_InitStruct);
 
 	/* PB.08 is SCL: the clock for the i2c protocol
@@ -128,7 +130,7 @@ void InitialiseI2C() {
 
 	I2C_InitTypeDef I2C_InitStruct;
 	/* note that the clock speed should be able to go up to 400kHz */
-	I2C_InitStruct.I2C_ClockSpeed = 400000; 		// 100kHz
+	I2C_InitStruct.I2C_ClockSpeed = 50000; 		// 100kHz
 
 	/* Use I2c (alternative is an SMBus device) */
 	I2C_InitStruct.I2C_Mode = I2C_Mode_I2C;
@@ -140,7 +142,7 @@ void InitialiseI2C() {
 	I2C_InitStruct.I2C_OwnAddress1 = 0x00;
 
 	/* Acknowledge on read, but we will set this explicitly later */
-	I2C_InitStruct.I2C_Ack = I2C_Ack_Disable;
+	I2C_InitStruct.I2C_Ack = I2C_Ack_Enable;
 
 	/* 7 bit acknowledge addresses, hmm strange. */
 	I2C_InitStruct.I2C_AcknowledgedAddress = I2C_AcknowledgedAddress_7bit;
